@@ -10,7 +10,7 @@
 `tiny-tpu-systolic-array` is a synthesizable 2D grid processing engine implementing diagonal wavefront systolic dataflows for high-throughput GEMM execution in Transformer and CNN inference.
 
 ## Key Features
-- **Parametric Array**: Configurable $4 \times 4$ or $8 \times 8$ PE mesh.
+- **Parametric Array**: Configurable 4 × 4 or 8 × 8 PE mesh.
 - **Wavefront Delay Registers**: Hardware skewing buffers aligning row and column arrival times.
-- **Precision**: 8-bit signed inputs $\times$ 8-bit signed weights $\to$ 24-bit accumulation buffers.
+- **Precision**: 8-bit signed inputs × 8-bit signed weights → 24-bit accumulation buffers.
 - **Double-Buffered Weights**: Seamless weight swapping for continuous compute streaming.
