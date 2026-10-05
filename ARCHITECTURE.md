@@ -1,5 +1,7 @@
 # tiny-tpu-systolic-array: Architectural Specification
 
+This is a proposed interface/dataflow specification. RTL and executable validation are not yet implemented in this repository.
+
 ## 1. Systolic Dataflow
 - Data inputs ($A_{i,k}$) flow horizontally from West to East across rows.
 - Data weights ($B_{k,j}$) are either weight-stationary inside PEs or stream vertically from North to South.
